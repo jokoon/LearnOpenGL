@@ -99,13 +99,13 @@ int main()
     // Set up vertex data (and buffer(s)) and attribute pointers
     //GLfloat vertices[] = {
     //  // First triangle
-    //   0.5f,  0.5f,  // Top Right
-    //   0.5f, -0.5f,  // Bottom Right
-    //  -0.5f,  0.5f,  // Top Left 
+    //   0.5f,  0.5f, 0.0f, // Top Right
+    //   0.5f, -0.5f, 0.0f, // Bottom Right
+    //  -0.5f,  0.5f, 0.0f, // Top Left 
     //  // Second triangle
-    //   0.5f, -0.5f,  // Bottom Right
-    //  -0.5f, -0.5f,  // Bottom Left
-    //  -0.5f,  0.5f   // Top Left
+    //   0.5f, -0.5f, 0.0f, // Bottom Right
+    //  -0.5f, -0.5f, 0.0f, // Bottom Left
+    //  -0.5f,  0.5f, 0.0f  // Top Left
     //}; 
     GLfloat vertices[] = {
          0.5f,  0.5f, 0.0f,  // Top Right
